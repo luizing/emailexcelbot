@@ -1,3 +1,4 @@
+#feito por luizing
 #Parte do programa responsavel por copiar parte do arquivo original para outro excel que sera enviado por email
 
 import pandas as pd
@@ -5,7 +6,7 @@ from pandas.core.indexes.period import PeriodIndex
 
 
 #Le o arquivo
-arquivo = pd.read_excel(r"exemplo.xlsx")
+arquivo = pd.read_excel(r"arquivo_original.xlsx")
 
 #Coleta as linhas que serão separadas
 linhaI = int(input("digite a primeira linha: "))
@@ -30,5 +31,5 @@ selecionadas = arquivo.loc[a]
 
 
 #Copia as linhas escolhidas em outro arquivo
-selecionadas.to_excel('exemplo2.xlsx')
+selecionadas.to_excel('arquivo_enviado.xlsx')
 
