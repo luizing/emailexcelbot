@@ -1,4 +1,3 @@
-
 #Excel
 import pandas as pd
 from pandas.core.indexes.period import PeriodIndex
@@ -67,7 +66,7 @@ email_msg['To'] = login #para testes
 email_msg['Subject'] = "Email automático Excel"
 
     #Configurar Anexo
-cam_arquivo = "C:\\Users\luize\\OneDrive\\Documentos\\GitHub\\emailexcelbot\\arquivo_enviado.xlsx"
+cam_arquivo = "arquivo_enviado.xlsx"
 attchment = open(cam_arquivo,'rb')
 
 
