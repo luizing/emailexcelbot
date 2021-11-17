@@ -15,11 +15,11 @@ linhaF = int(input("digite a ultima linha: "))
 
 #Define as variaveis
 a = []
-e = linhaI
+e = linhaI -2
 n = 0
 
 #Separa as linhas em lista
-while e <= linhaF:
+while e <= linhaF-2 :
     
     a.append(e)
     n = n+1
@@ -31,5 +31,5 @@ selecionadas = arquivo.loc[a]
 
 
 #Copia as linhas escolhidas em outro arquivo
-selecionadas.to_excel('arquivo_enviado.xlsx')
+selecionadas.to_excel('arquivo_enviado.xlsx',index=False)
 
