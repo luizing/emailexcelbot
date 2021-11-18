@@ -3,4 +3,4 @@
 
 ## Como a idéia surgiu:
 <p>Meu pai, que tem certa dificuldade com computadores, sempre me pedia ajuda para enviar partes de sua planilha excel por email.
-  <br> Agora, com essa automação, será mais fácil para ele realizar essa tarefa.</p>
+<br> Agora, com essa automação, será mais fácil para ele realizar essa tarefa.</p>
